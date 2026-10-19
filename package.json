@@ -1,0 +1,32 @@
+{
+  "name": "backend-turnos-pe7",
+  "version": "7.0.0",
+  "description": "Sistema backend de turnos y reservas. Pre-entrega 7: vistas con Handlebars y tiempo real con Socket.io.",
+  "author": "Teo Elian Villar",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/scripts/seed.js"
+  },
+  "keywords": [
+    "nodejs",
+    "esm",
+    "express",
+    "mongodb",
+    "mongoose",
+    "turnos",
+    "reservas",
+    "handlebars",
+    "socket.io"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "express-handlebars": "^8.0.6",
+    "mongoose": "^9.11.2",
+    "socket.io": "^4.8.4"
+  }
+}
